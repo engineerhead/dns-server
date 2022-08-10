@@ -1,37 +1,17 @@
-## Welcome to GitHub Pages
+## How to Build DNS Server in X Programming Language
 
-You can use the [editor on GitHub](https://github.com/engineerhead/dns-server/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+DNS stands for Domain Name Service which is like the phone book of the Internet. Users access the websites on the Internet through domain names while Web Browsers use IP addresses. DNS turns domain names into numerical IP addresses. For example, if user types example.com in a web browser, a server turns that human readable name to the attached IP address which looks like this 93.184.216.34.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+ Before DNS, Stanford Research Institute maintained a file named HOSTS.TXT. The file contained the host names and corresponding numerical address of the computers. As the Internet grew, maintaining a single centralised host file became cumbersome. In 1983, Paul Mockapetris created the Domain Name System which saw refinements over time[\[1\]](https://en.wikipedia.org/wiki/Domain_Name_System#History).
 
-### Markdown
+Web browsing and other internet activities depend upon DNS to provide the relevant information required to connect users to remote hosts. DNS mapping is distributed in a hierarchy of authorities/zones which will be explained later when we get to the recursive DNS resolver.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+This guide came into being as a goal to utilise free time and to understand DNS more deeply. The guides don't describe the whole journey and obviously the server implementation is for educational purposes. Final goal is to implement the toy DNS server in multiple languages. First language of choice is Javscript(Node JS)
 
-```markdown
-Syntax highlighted code block
+Resources which helped
 
-# Header 1
-## Header 2
-### Header 3
+ - [howDns](https://github.com/howCodeORG/howDNS)
+ - [RFC 1035](https://datatracker.ietf.org/doc/html/rfc1035)
+ - [RFC 1034](https://datatracker.ietf.org/doc/html/rfc1034)
+ - [Wireshark](http://wireshark.org)
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/engineerhead/dns-server/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
