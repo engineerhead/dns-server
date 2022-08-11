@@ -6,6 +6,10 @@ Web browsing and other internet activities depend upon DNS to provide the releva
 
 This guide came into being as a goal to utilise free time and to understand DNS more deeply. The guides don't describe the whole journey and obviously the server implementation is for educational purposes. Final goal is to implement the toy DNS server in multiple languages. First language of choice is Javscript(Node JS)
 
+Let's discuss the zone master file format first.
+
+[**DNS Zone Master File**](https://engineerhead.github.io/dns-server/dns-zone-master-file-format) 
+
 Resources which helped
 
  - [howDns](https://github.com/howCodeORG/howDNS)
