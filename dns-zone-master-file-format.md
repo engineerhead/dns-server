@@ -8,9 +8,13 @@ Let's go through the format of Master File. The list of entries are mostly line 
 We will discuss the structure of a resource record soon. Before that, we need to describe that there can be blank lines anywhere in the file. The comments in master file start with "**;**". The comment can be at start or end of a line. Eventually, following entries can be defined in master zone file.
 
 > \<**blank**>[\<**comment**>]
+
 > $ORIGIN \<**domain-name**> [\<**comment**>]
+
 > $INCLUDE \<**file-name**> [\<**domain-name**>] [\<**comment**>]
+
 >  \<**domain-name**>\<**rr**> [\<**comment**>]
+
 >   \<**blank**>\<**rr**> [\<**comment**>]
 
 There are two specific entries which start either with $ORIGIN or $INCLUDE. As expressed above, $ORIGIN is followed by a domain name, and resets the current origin for relative domain names to the stated name. $INCLUDE get the content from the named file and inserts into current file. $INCLUDE may be followed by a domain name which set the relative domain name origin for the included file. For now, $INCULDE is not supported in our implementation of dns server.
@@ -20,6 +24,7 @@ The last two entries represent resource records. If resource record begins with 
 Resource Record can be in one for the following forms
 
 > [\<TTL>] [\<class>] \<type> \<RDATA>
+> 
 > [\<class>] [\<TTL>] \<type> \<RDATA>
 
 Resource Record begins with optional TTL and class fields, followed by a type and RDATA field. TTL is a decimal integer while class and type use the standard mnemonics. If TTL or class is omitted, we use the last stated values.
@@ -44,5 +49,5 @@ Resource Record begins with optional TTL and class fields, followed by a type an
         A       128.9.0.32
         VAXA    A       10.2.0.27
         A       128.9.0.33
-        
+
 Next guide in the series will describe parsing the master file and obtaining records to form proper data structures.
