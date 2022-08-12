@@ -67,7 +67,9 @@ Contents of the master file are read line by line and processed if the line is n
         }
         
     }
+
 Once we get the line, some necessary house keeping is done by trimming the line, replacing tab characters and whitespace with a single space. After that, the location of comments is found out if there are any in the line. If the comment is somewhere besides start of the line, we split the line and ignore the commented part. Otherwise we set the *commentedLine* flag to true.
+
 
 	 if (!commentedLine) {
          let splittedLine = l.split(' ');
@@ -83,7 +85,9 @@ Once we get the line, some necessary house keeping is done by trimming the line,
           case '$INCLUDE':
             break;
     }
+
 If the *commentedLine* flag is set, we ignore the line. Next, we split the line by single space. As a result we get the items of resource record which are separated by space. We employ *switch* statement to parse the items. In case of $ORIGIN or $TTL directives, we set the relevant variables to the value obtained. $INCLUDE directive is not supported as of now.
+
 
 	   default:
 	     if (splittedLine.includes('SOA')){
@@ -140,7 +144,9 @@ If the *commentedLine* flag is set, we ignore the line. Next, we split the line 
       }
       soaLine++;
     }
+
 A *switch* condition is used to parse relevant value for the record items spread over multiple lines.
+
 
 	@ IN SOA ns1.example.com. hostmaster.example.com. (
 													2001062501 
