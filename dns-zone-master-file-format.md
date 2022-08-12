@@ -51,3 +51,5 @@ Resource Record begins with optional TTL and class fields, followed by a type an
         A       128.9.0.33
 
 Next guide in the series will describe parsing the master file and obtaining records to form proper data structures.
+
+[**Parsing DNS Zone Master File: Part 1**](https://engineerhead.github.io/dns-server/parsing-dns-master-zone-file-1)
