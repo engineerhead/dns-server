@@ -184,7 +184,7 @@ After SOA resource record is processed, we are left with single line resource re
        }
      });
 
-The line is processed if it matches the supported resource records' definition. After matching, the line is passed to a function *processRr* which takes other arguments as well. We will go through the *processRr* function in next part of this guide.
+The line is processed if it matches the supported resource records' definition. After matching, the line is passed to a function *processRr* which takes other arguments as well. We will go through the *processRr* function in [next part of this guide](https://engineerhead.github.io/dns-server/parsing-dns-master-zone-file-2).
 
 
 
