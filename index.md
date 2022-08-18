@@ -14,6 +14,8 @@ This guide came into being as a goal to utilise free time and to understand DNS 
 
 - [**Parsing DNS Zone Master File: Part 2**](https://engineerhead.github.io/dns-server/parsing-dns-master-zone-file-2)
 
+- [**DNS Message Format and sections**](https://engineerhead.github.io/dns-server/dns-message-sections)
+
 
 Resources
 
