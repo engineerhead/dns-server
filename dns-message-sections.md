@@ -34,8 +34,9 @@ The question section describes the question to the name server. The fields in qu
     +--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+
 ```
 Header has a fixed width of 12 bytes in DNS message.
-|  |  |
-|--|--|
+
+|    |    |
+|:---|:---|
 |ID  |A 16 bit random identifier which is replicated in the response  |
 |QR  | A bit field which tells whether message is query(0) or response(1) |
 |OPCODE  | 4 bit field that tells kind of query. It is also replicated in the response  |
