@@ -51,4 +51,4 @@ Header has a fixed width of 12 bytes in DNS message.
 |NSCOUNT  | 16 bit integer specifying number of name server records in authority section |
 |ARCOUNT  | 16 bit integer specifying number of RRs in additional records section |
 
-Details of question and answer section will be discussed in next instalment.  
+Details of question and answer section will be discussed in [next instalment](https://engineerhead.github.io/dns-server/dns-message-sections-2).  
