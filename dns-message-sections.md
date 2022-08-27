@@ -1,7 +1,7 @@
 ---
 nav_order: 5
 ---
-## DNS message sections
+## DNS message sections: Part 1 
 We started with discussing [basics of DNS](https://engineerhead.github.io/dns-server/). After that, we discussed the [format](https://engineerhead.github.io/dns-server/dns-zone-master-file-format) for master files of DNS which are also called zone files. Next we discussed how to parse such files in [part 1](https://engineerhead.github.io/dns-server/parsing-dns-master-zone-file-1) and [part 2](https://engineerhead.github.io/dns-server/parsing-dns-master-zone-file-2).
 
 Now, we are going to discuss the actual protocol and its specific message format. There are five sections of the message. Header is always present. Header describes what comes next.Besides telling which other sections are present, it also tells whether the message is a query or a response and many other things.

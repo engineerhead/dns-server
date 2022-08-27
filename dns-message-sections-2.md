@@ -1,6 +1,7 @@
 ---
 nav_order: 6
 ---
+## DNS message sections: Part 2
 In the previous [instalment of guide](https://engineerhead.github.io/dns-server/dns-message-sections), DNS header and its fields were discussed. Now we are going to take a look at Question section of DNS message
 
 ```
