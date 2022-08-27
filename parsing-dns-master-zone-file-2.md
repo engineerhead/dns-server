@@ -1,3 +1,6 @@
+---
+nav_order: 4
+---
 ## Parsing DNS Zone Master File: Part 2
 First part of the guide about parsing DNS Zone Master file is [here](https://engineerhead.github.io/dns-server/parsing-dns-master-zone-file-1). We are going to discuss *processRr* function.
 

@@ -1,4 +1,6 @@
-
+---
+nav_order: 3
+---
 ## Parsing DNS Zone Master File: Part 1
 DNS Zone master file's structure has been discussed in [previous guide](https://engineerhead.github.io/dns-server/dns-zone-master-file-format). There are some other rules which we need to follow.
 

@@ -1,3 +1,6 @@
+---
+nav_order: 1
+---
 ## How to Build DNS Server in X Programming Language
 
 DNS stands for Domain Name Service which is like the phone book of the Internet. Users access the websites on the Internet through domain names while Web Browsers use IP addresses. DNS turns domain names into numerical IP addresses. For example, if user types example.com in a web browser, a server turns that human readable name to the attached IP address which looks like this 93.184.216.34.
@@ -25,4 +28,3 @@ Resources
  - [RFC 1035](https://datatracker.ietf.org/doc/html/rfc1035)
  - [RFC 1034](https://datatracker.ietf.org/doc/html/rfc1034)
  - [Wireshark](http://wireshark.org)
-

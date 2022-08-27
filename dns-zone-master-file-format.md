@@ -1,3 +1,6 @@
+---
+nav_order: 2
+---
 ## DNS Zone Master File
 Our goal is to make an authoritative DNS server. So! we are going to need Master Files for the domains  which come under out authority. Master files are defined in [RFC 1035](https://datatracker.ietf.org/doc/html/rfc1035). They are simple text files which contain Resource Records. The list of resource records in a master file defines a zone.
 

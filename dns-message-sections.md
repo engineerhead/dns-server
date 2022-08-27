@@ -1,3 +1,6 @@
+---
+nav_order: 5
+---
 ## DNS message sections
 We started with discussing [basics of DNS](https://engineerhead.github.io/dns-server/). After that, we discussed the [format](https://engineerhead.github.io/dns-server/dns-zone-master-file-format) for master files of DNS which are also called zone files. Next we discussed how to parse such files in [part 1](https://engineerhead.github.io/dns-server/parsing-dns-master-zone-file-1) and [part 2](https://engineerhead.github.io/dns-server/parsing-dns-master-zone-file-2).
 
