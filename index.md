@@ -21,6 +21,9 @@ This guide came into being as a goal to utilise free time and to understand DNS 
 
 - [**DNS Message Format and sections: Part 2**](https://engineerhead.github.io/dns-server/dns-message-sections-2)
 
+- [**Implementing DNS Server's Response: Part 1**](https://engineerhead.github.io/dns-server/implementing-dns-server-part-1)
+
+
 
 Resources
 
