@@ -26,6 +26,9 @@ nav_external_links:
 # Back to top link
 back_to_top: true
 back_to_top_text: "Back to top"
+
+ga_tracking: G-JN7EGWW6WQ
+ga_tracking_anonymize_ip: true 
 # add this line to the plugins list if you already have one
 # Welcome to Jekyll!
 #
