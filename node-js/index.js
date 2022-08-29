@@ -1,8 +1,10 @@
 import dgram from 'dgram';
 import path from 'path';
+import { fileURLToPath } from 'url';
 import { processBindFile } from './parser.js';
 
 const server = dgram.createSocket('udp4');
+const __filename = fileURLToPath(import.meta.url);
 
 server.bind(53);
 
@@ -141,7 +143,7 @@ async function getRecords(data){
     let qt = getRecordType(result[1])
     
 
-    let filePath = path.resolve(process.cwd(), `node-js/zones/${domainName}.zone`);
+    let filePath = path.join(path.dirname(__filename), `zones/${domainName}.zone`);
     let records = await processBindFile(filePath);
     
     
