@@ -23,6 +23,10 @@ This guide came into being as a goal to utilise free time and to understand DNS 
 
 - [**Implementing DNS Server's Response: Part 1**](https://engineerhead.github.io/dns-server/implementing-dns-server-part-1)
 
+- [**Implementing DNS Server's Response: Part 2**](https://engineerhead.github.io/dns-server/implementing-dns-server-part-2)
+
+- [**Implementing DNS Server's Response: Part 3**](https://engineerhead.github.io/dns-server/implementing-dns-server-part-3)
+
 
 
 Resources
