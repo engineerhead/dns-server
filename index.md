@@ -1,7 +1,7 @@
 ---
 nav_order: 1
 ---
-## How to Build DNS Server in X Programming Language
+## [How to Build DNS Server in X Programming Language](https://github.com/engineerhead/dns-server)
 
 DNS stands for Domain Name Service which is like the phone book of the Internet. Users access the websites on the Internet through domain names while Web Browsers use IP addresses. DNS turns domain names into numerical IP addresses. For example, if user types example.com in a web browser, a server turns that human readable name to the attached IP address which looks like this 93.184.216.34.
 
@@ -9,8 +9,11 @@ DNS stands for Domain Name Service which is like the phone book of the Internet.
 
 Web browsing and other internet activities depend upon DNS to provide the relevant information required to connect users to remote hosts. DNS mapping is distributed in a hierarchy of authorities/zones which will be explained later when we get to the recursive DNS resolver.
 
-This guide came into being as a goal to utilise free time and to understand DNS more deeply. The guides don't describe the whole journey and obviously the server implementation is for educational purposes. Final goal is to implement the toy DNS server in multiple languages. First language of choice is Javscript(Node JS)
+This guide came into being as a goal to utilise free time and to understand DNS more deeply. The guides don't describe the whole journey and obviously the server implementation is for educational purposes. Final goal is to implement the toy DNS server in multiple languages. 
+## [First language of choice is Javscript(Node JS)](https://github.com/engineerhead/dns-server/tree/master/node-js)
+## [Second language of choice is Ruby](https://github.com/engineerhead/dns-server/tree/master/ruby)
 
+## Guides
 - [**DNS Zone Master File**](https://engineerhead.github.io/dns-server/dns-zone-master-file-format) 
 
 - [**Parsing DNS Zone Master File: Part 1**](https://engineerhead.github.io/dns-server/parsing-dns-master-zone-file-1)
